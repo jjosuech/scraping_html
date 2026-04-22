@@ -1,0 +1,18 @@
+Content-Type: text/html; charset=utf-8
+Date: Wed, 22 Apr 2026 16:47:29 GMT
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Content-Encoding: gzip
+Server: nginx/1.27.5
+Web-Version: 7.0.0
+Set-Cookie: guestAuthVersion=2; Path=/; Expires=Wed, 22 Apr 2026 17:47:27 GMT
+Set-Cookie: currentLocation=JTdCJTIyaWQlMjIlM0E0OTIlMkMlMjJjaXR5JTIyJTNBJTIyTGltYSUyMiUyQyUyMnVybCUyMiUzQSUyMmxpbWElMjIlMkMlMjJsYXQlMjIlM0EtMTIuMTQ1Mzk1JTJDJTIybG5nJTIyJTNBLTc3LjAyMTkzNiUyQyUyMmF1dG9Mb2NhdGlvbiUyMiUzQXRydWUlMkMlMjJhZGRyZXNzJTIyJTNBJTIyTGltYSUyMiUyQyUyMmFjdGl2ZSUyMiUzQXRydWUlN0Q=; Max-Age=31536034; Domain=www.rappi.com.pe; Path=/; SameSite=Lax
+Set-Cookie: deviceid=f355fbe6-9321-4d17-8d5e-2fa790c618c9; Max-Age=31536034; Domain=www.rappi.com.pe; Path=/; SameSite=Lax
+Set-Cookie: Path=/; Secure
+X-Powered-By: Next.js
+X-Render-Type: ssr
+X-Dns-Prefetch-Control: on
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 e9794b5f9d4c59e1fd306528f42b4f7c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LIM50-P4
+X-Amz-Cf-Id: oObktn0LE3wC5_PcUpEkzgnF3VLk-sJUD5iMaQlYXhTK5D43C1ZPMQ==

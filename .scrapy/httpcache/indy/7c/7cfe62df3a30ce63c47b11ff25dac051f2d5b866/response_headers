@@ -1,0 +1,41 @@
+Date: Fri, 04 Oct 2024 18:35:09 GMT
+Content-Type: text/html; charset=utf-8
+X-Sorting-Hat-Podid: 222
+X-Sorting-Hat-Shopid: 51404210332
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: keep_alive=62b95807-fa57-464d-a614-30e1014e8d7e; path=/; expires=Fri, 04 Oct 2024 19:05:08 GMT; HttpOnly; SameSite=Lax
+Set-Cookie: secure_customer_sig=; path=/; expires=Sat, 04 Oct 2025 18:35:09 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: localization=PE; path=/; expires=Sat, 04 Oct 2025 18:35:09 GMT; SameSite=Lax
+Set-Cookie: _tracking_consent=%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22PELMA%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; domain=indyperuvapes.pe; path=/; expires=Sat, 04 Oct 2025 18:35:09 GMT; SameSite=Lax
+Set-Cookie: _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; domain=indyperuvapes.pe; path=/; expires=Sat, 05 Oct 2024 18:35:09 GMT; SameSite=Lax
+Set-Cookie: _shopify_y=c51504a6-4938-4185-ab74-b93b8e572121; Expires=Sat, 04-Oct-25 18:35:09 GMT; Domain=indyperuvapes.pe; Path=/; SameSite=Lax
+Set-Cookie: _shopify_s=7da7cc08-902b-4454-8942-17a3baf599e7; Expires=Fri, 04-Oct-24 19:05:09 GMT; Domain=indyperuvapes.pe; Path=/; SameSite=Lax
+Set-Cookie: _orig_referrer=; Expires=Fri, 18-Oct-24 18:35:09 GMT; Domain=indyperuvapes.pe; Path=/; HttpOnly; SameSite=Lax
+Set-Cookie: _landing_page=%2Fcollections%2Ftyson; Expires=Fri, 18-Oct-24 18:35:09 GMT; Domain=indyperuvapes.pe; Path=/; HttpOnly; SameSite=Lax
+X-Shopify-Nginx-No-Cookies: 0
+Link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin
+Etag: W/"cacheable:cbac8000ca3fd4a9c8a751ae8d388045"
+X-Cache: miss
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Strict-Transport-Security: max-age=7889238
+X-Shopid: 51404210332
+X-Shardid: 222
+Vary: Accept
+Content-Language: es-PE
+Powered-By: Shopify
+Server-Timing: processing;dur=278;desc="gc:62", db;dur=57, parse;dur=8, render;dur=91, asn;desc="12252", edge;desc="LIM", country;desc="PE", theme;desc="141380190431", pageType;desc="collection", servedBy;desc="qxwq", requestID;desc="5070fed4-a370-40da-b94c-35c6cba30f07-1728066908"
+Server-Timing: cfRequestDuration;dur=589.999914
+X-Dc: gcp-us-east1,gcp-us-east1,gcp-us-east1
+X-Request-Id: 5070fed4-a370-40da-b94c-35c6cba30f07-1728066908
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=3pw83oQ495RLZlZ3Gfz73PPh4ScFYOK%2BUkBDWVYXcTyJWKMH1aD180U6i0DOxB4vjwYhL%2BBk8YSppX8sIcDrrqvm7eq8Ip61RMOA4Hdh1NknYANnKBR%2FHXpmfNJ5OwSBWQOFhYJu"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+Server: cloudflare
+Cf-Ray: 8cd74522eb876d61-LIM
+Content-Encoding: gzip

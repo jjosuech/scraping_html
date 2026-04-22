@@ -1,0 +1,40 @@
+Date: Fri, 04 Oct 2024 17:28:44 GMT
+Content-Type: text/html; charset=utf-8
+X-Sorting-Hat-Podid: 22
+X-Sorting-Hat-Shopid: 27162570
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: keep_alive=60d32aa8-ca28-4138-9c65-64a8e2a19697; path=/; expires=Fri, 04 Oct 2024 17:58:43 GMT; HttpOnly; SameSite=Lax
+Set-Cookie: secure_customer_sig=; path=/; expires=Sat, 04 Oct 2025 17:28:44 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: localization=PE; path=/; expires=Sat, 04 Oct 2025 17:28:44 GMT; SameSite=Lax
+Set-Cookie: _tracking_consent=%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22PELMA%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; domain=vaporclub.pe; path=/; expires=Sat, 04 Oct 2025 17:28:44 GMT; SameSite=Lax
+Set-Cookie: _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; domain=vaporclub.pe; path=/; expires=Sat, 05 Oct 2024 17:28:44 GMT; SameSite=Lax
+Set-Cookie: _shopify_y=e67e0104-99f5-49c0-8fd0-8abb83755a54; Expires=Sat, 04-Oct-25 17:28:44 GMT; Domain=vaporclub.pe; Path=/; SameSite=Lax
+Set-Cookie: _shopify_s=0720aedd-fa4b-4fef-b72f-b2f63080b752; Expires=Fri, 04-Oct-24 17:58:44 GMT; Domain=vaporclub.pe; Path=/; SameSite=Lax
+Set-Cookie: _orig_referrer=; Expires=Fri, 18-Oct-24 17:28:44 GMT; Domain=vaporclub.pe; Path=/; HttpOnly; SameSite=Lax
+Set-Cookie: _landing_page=%2Fcollections%2Fall%3Fpage%3D12; Expires=Fri, 18-Oct-24 17:28:44 GMT; Domain=vaporclub.pe; Path=/; HttpOnly; SameSite=Lax
+X-Shopify-Nginx-No-Cookies: 0
+Link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin
+Etag: W/"cacheable:c171050a62bb13af6e62a6bba388322e"
+X-Cache: miss
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Strict-Transport-Security: max-age=7889238
+X-Shopid: 27162570
+X-Shardid: 22
+Vary: Accept
+Content-Language: es-PE
+Powered-By: Shopify
+Server-Timing: processing;dur=591;desc="gc:78", db;dur=153, parse;dur=14, render;dur=334, asn;desc="12252", edge;desc="LIM", country;desc="PE", theme;desc="81253105687", pageType;desc="collection", servedBy;desc="4w6q", requestID;desc="bd9c180a-da31-401a-a6f9-961c10b1ca2b-1728062923"
+Server-Timing: cfRequestDuration;dur=865.999937
+X-Dc: gcp-us-east1,gcp-us-east1,gcp-us-east1
+X-Request-Id: bd9c180a-da31-401a-a6f9-961c10b1ca2b-1728062923
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2F2OHqYBDsNHmApIUhujvcpmbdd79Zt5zK1rEiLvNg9EyS5yJxi0VGqUFQgDUyCiL9dpPama66ftVERRt2pLSlaHZo8uAZaKDNNhm19J8ELWQlvjQimk4yS7151hO5WA9DnI%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+Server: cloudflare
+Cf-Ray: 8cd6e3d8ed4c6e01-LIM
+Content-Encoding: gzip

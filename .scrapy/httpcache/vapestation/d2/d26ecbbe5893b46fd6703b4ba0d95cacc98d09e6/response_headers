@@ -1,0 +1,20 @@
+Date: Mon, 04 Nov 2024 20:58:00 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Ray: 8dd78504aa5f6dfb-LIM
+Cf-Cache-Status: DYNAMIC
+Cache-Control: no-cache, must-revalidate, max-age=0
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Link: <https://vapestation.pe/wp-json/>; rel="https://api.w.org/"
+Vary: Accept-Encoding
+Ki-Cache-Type: None
+Ki-Cf-Cache-Status: BYPASS
+Ki-Edge: v=20.2.8;mv=3.1.4
+Ki-Origin: g1p
+X-Content-Type-Options: nosniff
+X-Edge-Location-Klb: 1
+X-Kinsta-Cache: MISS
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=SN8ZlVTsxVD5Nw182QKgctCmXU8VGiEIrbPEjO8R7BRsiBz%2FA3ZghAjX9vSquWKnLS1RW4s0XtcaIst1%2FYXYzQt2o5hn12EMkWhrwMqz8CFc1mck5XXTbHhnqcevIt7m"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400

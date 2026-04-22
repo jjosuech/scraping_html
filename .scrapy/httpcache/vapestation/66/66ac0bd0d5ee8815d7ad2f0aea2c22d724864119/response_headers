@@ -1,0 +1,25 @@
+Content-Length: 378346
+Date: Mon, 04 Nov 2024 21:04:37 GMT
+Content-Type: image/jpeg
+Cf-Ray: 8dd78eb7096ae7a9-SCL
+Cf-Cache-Status: HIT
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 430806
+Cache-Control: public, max-age=31536000, s-maxage=2592000
+Etag: "66f1e67c-5c5ea"
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Last-Modified: Mon, 23 Sep 2024 22:06:52 GMT
+Vary: Accept-Encoding
+Cf-Bgj: h2pri
+Ki-Cache-Tag: 2b4991e8-1d3a-48c8-9406-d3feae93706b,d4ff6eb2a1cdae79aebb750d7f28d5ce8a6c2b4d5a59b37c1e667b1930329082
+Ki-Cache-Type: CDN
+Ki-Cf-Cache-Status: HIT
+Ki-Edge: v=20.2.8;mv=3.1.4
+Ki-Origin: g1p
+X-Content-Type-Options: nosniff
+X-Edge-Location-Klb: 1
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=naK3u3mLfuhRQHwMwJ25vsvcVQ2GSR%2BCoffYw3xSpXDDO0n8XjqvOoHIpO0r0pBeKhWuCDZOlSG4o3vEjouzRA%2BzwBDOdmjNoi70B2cJdLJjcX0%2FcjVf8YcBW8ZwMD5M"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400
