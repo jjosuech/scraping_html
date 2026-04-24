@@ -60,8 +60,9 @@ EXTENSIONS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "electronic.pipelines.ElectronicPipeline": 300,
-    'electronic.custom_image_pipeline.CustomImagePipeline': 1,
+    "electronic.pipelines.RappiPipeline": 300,
+    "electronic.pipelines.FalabellaPipeline": 400,
+    #'electronic.custom_image_pipeline.CustomImagePipeline': 1,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -91,5 +92,5 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
 
-IMAGES_URLS_FIELD = 'image_urls'
-IMAGES_STORE = 'imgvape'
+#IMAGES_URLS_FIELD = 'image_urls'
+#IMAGES_STORE = 'imgvape'

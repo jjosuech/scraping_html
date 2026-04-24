@@ -1,30 +1,65 @@
 import pandas as pd
 
-class Transformation:
 
-    def __init__(self, path):
-        self.df = pd.read_json(path)
+class RappiPipeline:
 
-    def clean(self):
-        # convertir precios a float
-        self.df["current_price"] = pd.to_numeric(self.df["current_price"], errors="coerce")
-        self.df["old_price"] = pd.to_numeric(self.df["old_price"], errors="coerce")
+    def open_spider(self, spider):
+        self.items = []
 
-        # normalizar discount
-        self.df["discount"] = self.df["discount"].replace("No Discount", None)
+    def process_item(self, item, spider):
+        if spider.name == "rappi":
+            self.items.append(item)
+        return item
 
-        # limpiar strings
-        self.df["store_name"] = self.df["store_name"].str.strip()
-        self.df["name_product"] = self.df["name_product"].str.strip()
+    def close_spider(self, spider):
+        if spider.name != "rappi":
+            return
 
-        # quitar duplicados
-        self.df = self.df.drop_duplicates()
+        df = pd.DataFrame(self.items)
 
-    def to_excel(self):
-        self.df.to_excel("rappi.xlsx", index=False)
+        # TU LÓGICA ORIGINAL
+        df["current_price"] = pd.to_numeric(df["current_price"], errors="coerce")
+        df["old_price"] = pd.to_numeric(df["old_price"], errors="coerce")
+
+        df["discount"] = df["discount"].replace("No Discount", None)
+
+        df["store_name"] = df["store_name"].str.strip()
+        df["name_product"] = df["name_product"].str.strip()
+
+        df = df.drop_duplicates()
+
+        df.to_excel("rappi.xlsx", index=False)
 
 
-if __name__ == "__main__":
-    t = Transformation("rappi.json")
-    t.clean()
-    t.to_excel()
+
+class FalabellaPipeline:
+
+    def open_spider(self, spider):
+        self.items = []
+
+    def process_item(self, item, spider):
+        if spider.name == "falabella":
+            self.items.append(item)
+        return item
+
+    def close_spider(self, spider):
+        if spider.name != "falabella":
+            return
+
+        df = pd.DataFrame(self.items)
+
+        # LIMPIEZA FALABELLA
+        df["current_price"] = pd.to_numeric(df["current_price"], errors="coerce")
+        df["old_price"] = pd.to_numeric(df["old_price"], errors="coerce")
+
+        df["discount"] = df["discount"].replace("No Discount", None)
+        df["discount"] = df["discount"].str.replace('%', '', regex=False)
+        df["discount"] = df["discount"].str.replace('-', '', regex=False)
+
+        df["store_name"] = df["store_name"].str.strip()
+        df["name_product"] = df["name_product"].str.strip()
+        df["brand"] = df["brand"].str.strip()
+
+        df = df.drop_duplicates()
+
+        df.to_excel("falabella.xlsx", index=False)
