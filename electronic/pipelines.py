@@ -26,6 +26,8 @@ class RappiPipeline:
         df["store_name"] = df["store_name"].str.strip()
         df["name_product"] = df["name_product"].str.strip()
 
+        df["description"] = df["description"].astype(str).str.strip()
+
         df = df.drop_duplicates()
 
         df.to_excel("rappi.xlsx", index=False)
@@ -59,6 +61,8 @@ class FalabellaPipeline:
         df["store_name"] = df["store_name"].str.strip()
         df["name_product"] = df["name_product"].str.strip()
         df["brand"] = df["brand"].str.strip()
+
+        df["description"] = df["description"].astype(str).str.strip()
 
         df = df.drop_duplicates()
 

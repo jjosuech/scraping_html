@@ -1,9 +1,10 @@
 import scrapy
 from datetime import datetime
+import re
 #mira, si, sm, jm, ch, ba, sur, molina, lince, magdalena
 
 class RappiSpider(scrapy.Spider):
-    name = "rappino"
+    name = "rappi"
     allowed_domains = ["www.rappi.com.pe"]
     start_urls = [
                     # "https://www.rappi.com.pe/search?query=chilcano",
@@ -134,12 +135,46 @@ class RappiSpider(scrapy.Spider):
             discount_raw = product.css('span[data-qa="product-discount"]::text').get()
             discount = discount_raw.strip() if discount_raw else 'No Discount'
 
-            yield {
+            item = {
                 'id': index,
                 'store_name': store_name.strip() if store_name else 'No Store',
                 'name_product': name_product.strip() if name_product else 'No Name',
                 'current_price': current_price,
                 'old_price': old_price,
                 'discount': discount,
-                'exdate': extraction_date
+                'exdate': extraction_date,
             }
+
+            product_url = product.css('a::attr(href)').get()
+
+            if product_url:
+
+                if product_url.startswith('/'):
+                    product_url = response.urljoin(product_url)
+
+                yield scrapy.Request(
+                    url=product_url,
+                    callback=self.parse_detail,
+                    meta={'item': item},
+                    dont_filter=True
+                )
+
+            else:
+
+                item['description'] = None
+                yield item
+
+    def parse_detail(self, response):
+
+        item = response.meta['item']
+
+        description = response.css(
+            'meta[name="description"]::attr(content)'
+        ).get()
+
+        if description:
+            description = re.sub(r'\s+', ' ', description).strip()
+
+        item['description'] = description
+
+        yield item
